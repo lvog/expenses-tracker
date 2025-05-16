@@ -1,0 +1,156 @@
+{
+  "menu": {
+    "info": "Info",
+    "balance": "Balance",
+    "incomes": "Incomes",
+    "expenses": "Expenses",
+    "settings": "Settings",
+    "logOut": "Log Out"
+  },
+  "category": {
+    "bonus": "Bonus",
+    "deposits": "Deposits",
+    "salary": "Salary",
+    "freelance": "Freelance",
+    "products": "Products and supermarkets",
+    "cafe": "Cafes and restaurants",
+    "beauty": "Beauty and health",
+    "bills": "Bills and internet",
+    "repair": "Repair and construction",
+    "clothing": "Clothing and shoes",
+    "sport": "Sport",
+    "other": "Other",
+    "expenses": "Expenses",
+    "incomes": "Incomes"
+  },
+  "descriptions": {
+    "presents": "Presents",
+    "meat": "Meat",
+    "barbershop": "Barbershop",
+    "rent": "Apartment rent",
+    "epicentr": "Epicentr"
+  },
+  "filters": {
+    "day": "Day",
+    "month": "Month",
+    "year": "Year"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "time": "For all the time",
+  "date": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "dateFormat": {
+    "day": "MM/dd/yyyy",
+    "month": "MM/yyyy"
+  },
+  "info": {
+    "title": "Info",
+    "description": [
+      "<0>Expense Tracker</0> is a web application for personal financial management. It allows users to easily track incomes and expenses, view overall balance, and flexibly filter records by day, month, or year.",
+      "Users can add, edit, and delete records, and for convenience, export them to a CSV report. The app also includes authentication and personalized settings such as language, currency, theme (light/dark mode), and password change."
+    ],
+    "title2": "Technologies",
+    "infoList": [
+      "React with hooks (useState, useEffect, useRef, useMemo) and Context API (useContext)",
+      "localStorage — storing records, settings, and login state",
+      "framer-motion — smooth UI animations",
+      "i18next + react-i18next — full localization support",
+      "styled-components — component-level styling",
+      "uuid — generating unique record IDs",
+      "prop-types — props validation",
+      "recharts — visualizing data with charts",
+      "react-select — custom select",
+      "react-datepicker — flexible date picker",
+      "Vite — fast and modern project bundling"
+    ],
+    "title3": "Contacts",
+    "paragraph": "For questions about collaboration or job opportunities, please get in touch:"
+  },
+  "balance": {
+    "title": "Balance"
+  },
+  "incomes": {
+    "title": "Incomes",
+    "button": "Add income",
+    "popupAddTitle": "Add new income",
+    "popupEditTitle": "Edit income"
+  },
+  "expenses": {
+    "title": "Expenses",
+    "button": "Add expense",
+    "popupAddTitle": "Add new expense",
+    "popupEditTitle": "Edit expense"
+  },
+  "settings": {
+    "title": "Setting",
+    "currency": "Currency",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "fields": {
+    "datepicker": "Choose date",
+    "select": "Choose category",
+    "sum": "Enter sum",
+    "description": "Add description"
+  },
+  "buttons": {
+    "filter": "Filter",
+    "clear": "Clear filters",
+    "save": "Save",
+    "export": "Export CSV"
+  },
+  "editPopup": {
+    "remove": "Remove",
+    "edit": "Edit"
+  },
+  "csv": {
+    "note": "Note",
+    "date": "Date",
+    "category": "Category",
+    "description": "Description",
+    "sum": "Sum"
+  },
+  "changePassword": {
+    "title": "Change password",
+    "inputCurrentPassword": "Current password",
+    "inputNewPassword": "New password",
+    "inputConfirmPassword": "Confirm new password",
+    "button": "Change password"
+  },
+  "logIn": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "note": "*Email - john.brown@gmail.com and password - 1234",
+    "button": "Login"
+  },
+  "messages": {
+    "error": "No results found",
+    "success": "Password updated successfully!",
+    "enterCurrent": "Please enter your current password",
+    "newEmpty": "New password cannot be empty",
+    "confirm": "Please confirm your new password",
+    "incorrect": "Incorrect current password",
+    "same": "New password cannot be the same as the old password",
+    "match": "Passwords do not match",
+    "emptyEmail": "Please enter your email",
+    "incorrectEmail": "Incorrect email",
+    "emptyPassword": "Please enter your password",
+    "incorrectPassword": "Incorrect password"
+  }
+}
