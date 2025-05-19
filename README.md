@@ -78,6 +78,8 @@ To create a production-ready version of the project, run:
 npm run build
 ``` 
 
+## License 📄
+Distributed under the MIT License. See  `LICENSE`  for more information.
 
 ## Contact 📱
 Feel free to contact me via email at  [levchuk.oleg21@gmail.com](mailto:levchuk.oleg21@gmail.com). You can also visit my  [website](https://lvog.github.io/)  to see more of my works or  [LinkedIn](https://www.linkedin.com/in/oleg-levchuk-2098b2b7/).
