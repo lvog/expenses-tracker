@@ -4,6 +4,17 @@
 
 Users can add, edit, and delete records, and for convenience, export them to a CSV report. The app also includes authentication and personalized settings such as language, currency, theme (light/dark mode), and password change.
 
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lvog/lvog.github.io/refs/heads/main/images/expense-tracker-01.jpg" alt="Expense Tracker" width="800"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lvog/lvog.github.io/refs/heads/main/images/expense-tracker-02.jpg" alt="Expense Tracker" width="800"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lvog/lvog.github.io/refs/heads/main/images/expense-tracker.jpg" alt="Expense Tracker" width="800"/>
+</p>
+
 ## Technologies 👨🏻‍💻
 
 ### Main:
