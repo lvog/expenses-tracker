@@ -1,4 +1,4 @@
-import{b as n,u as b,j as s,d as j,m as I}from"./vendor.DLooJJyz.js";import{u as v,e as m,h as y,c}from"./index.Cp5gBIWw.js";import{L as E}from"./Logo.COuJlG4E.js";import{I as h,M as u,B as S}from"./Message.Do2003Jm.js";const L=j(I.div)`
+import{b as n,u as b,j as s,d as j,m as I}from"./vendor.DLooJJyz.js";import{u as v,e as m,h as y,c}from"./index.1bsbLMg5.js";import{L as E}from"./Logo.DaVOPJqF.js";import{I as h,M as u,B as S}from"./Message.Dp8ynjLm.js";const L=j(I.div)`
   max-width: 460px;
   width: calc(100% - 30px);
   padding: 30px;
