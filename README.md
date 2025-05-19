@@ -57,18 +57,12 @@ cd expenses-tracker
 
 ### 3. Install Dependencies
 Ensure that **Node.js** is installed on your machine. If you haven't installed it yet, you can [download and install Node.js](https://nodejs.org/).
+For stable operation with this build, it's recommended to use **v20.17.0**.
 
 Once Node.js is installed, run the following command to install the necessary dependencies:
 
 ```bash
 npm install
-```
-
-For stable operation with this build, it's recommended to use **v20.17.0**.
-To check the current version of Node.js on your machine, run the following command:
-
-```bash
-node -v
 ```
 
 ### 4. Launch the Project
