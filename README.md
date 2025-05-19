@@ -26,7 +26,7 @@ Users can add, edit, and delete records, and for convenience, export them to a C
 - Vite
 
 ### Plugins / Libraries:
-- styled-components (smooth UI animations)
+- styled-components (component-level styling)
 - prop-types (props validation)
 - framer-motion (smooth UI animations)
 - uuid (generating unique record IDs)
