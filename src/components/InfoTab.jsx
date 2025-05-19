@@ -10,7 +10,7 @@ import { fontSize, fontWeight, colors } from "../data/variables";
 const InfoTabHolder = styled.div`
   font-size: ${fontSize.md};
 
-  h2,
+  .h2,
   .description-block {
     margin-bottom: 30px;
   }
@@ -66,7 +66,7 @@ export const InfoTab = ({ id }) => {
       className={`tab ${id === activeTab ? "active" : "tab-hidden"}`}
     >
       <div className="container">
-        <h2>{t("info.title")}</h2>
+        <h1 className="h2">{t("info.title")}</h1>
         <div className="description-block">
           {description.map((text, index) => (
             <p key={index}>
@@ -77,13 +77,13 @@ export const InfoTab = ({ id }) => {
             </p>
           ))}
         </div>
-        <h3>{t("info.title2")}</h3>
+        <h2 className="h3">{t("info.title2")}</h2>
         <ul>
           {infoList.map((text, index) => (
             <li key={index}>{text}</li>
           ))}
         </ul>
-        <h3>{t("info.title3")}</h3>
+        <h2 className="h3">{t("info.title3")}</h2>
         <p>{t("info.paragraph")}</p>
         <ul className="contacts-list">
           {contacts.map((item) => (

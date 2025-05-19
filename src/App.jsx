@@ -1,6 +1,7 @@
 import { useEffect, lazy, Suspense } from "react";
 import { useData } from "./context/DataContex";
 import { createGlobalStyle } from "styled-components";
+import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Preloader } from "./components/Preloader.jsx";
@@ -512,6 +513,12 @@ textarea {
 
 function App() {
   const { isLoggedIn } = useData();
+  const { i18n } = useTranslation();
+
+  // Change lang on html
+  useEffect(() => {
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
   // Set initial theme from localStorage on app load
   useEffect(() => {

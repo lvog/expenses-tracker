@@ -28,12 +28,12 @@ const LogInHolder = styled(motion.div)`
     margin-bottom: 15px;
   }
 
-  h2,
+  .h2,
   .logo {
     margin-bottom: 0;
   }
 
-  h2 {
+  .h2 {
     padding-right: 15px;
   }
 
@@ -123,7 +123,7 @@ const LogIn = () => {
       transition="transition"
     >
       <div className="heading-block">
-        <h2>{t("logIn.title")}</h2>
+        <h1 className="h2">{t("logIn.title")}</h1>
         <Logo />
       </div>
       <form onSubmit={handleLogin}>
